@@ -1,0 +1,53 @@
+form {
+  margin-top: 50px;
+}
+input[type="number"],
+input[type="text"] {
+  width: 250px;
+  margin: 5px auto;
+  height: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  background: #c3c3c3f2;
+}
+select {
+  width: 260px;
+  margin: 5px auto;
+  height: 32px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  background: #c3c3c3f2;
+}
+input[type="submit"] {
+  width: 260px;
+  margin: 5px auto;
+  height: 32px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: #00998b;
+  display: block;
+}
+.results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box {
+  width: 260px;
+  margin: 19px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background: #fc5521;
+  text-align: center;
+  line-height: 32px;
+}
